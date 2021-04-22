@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    color: red;
+    text-align: center;
+    -webkit-animation:colorchange 30s infinite alternate;}
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color:red;
+      }
+      
+      10% {
+        
+        color: greenyellow;
+      }
+      
+      20% {
+        
+        color: aqua;
+      }
+      
+      30% {
+        
+        color:deeppink;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: gold;
+      }
+      
+      60% {
+        
+        color:orangered
+      }
+      
+      70% {
+        
+        color:indigo;
+      }
+      80% {
+     
+        color:turquoise
+      }
+      
+      90% {
+     
+        color:teal
+      }
+      
+      100% {
+        
+        color:greenyellow;
+      }
+    }
+
+.btn {
+    background:red;
+    border-radius: 15px;
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  .btn:hover {
+    background: aqua;
+  }
+
+
+
+
+
+
+
+
